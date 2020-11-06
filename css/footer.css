@@ -1,0 +1,41 @@
+
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #A1A1A1;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+
+.footer__item{
+    width: 25%;
+    text-align: center;
+    
+}
+.footer__item:last-child{
+    margin-right: 0px;
+}
+.footer__item a{
+    color: #999999;
+}
+
+.footer__title{
+    margin-bottom: 35px;
+}
+.footer__links{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.footer__bottom{
+    text-align: center;
+    color: #999999;
+}
+
+.footer__link{
+    margin-bottom: 30px;
+}

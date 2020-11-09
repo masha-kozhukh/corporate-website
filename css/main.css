@@ -293,45 +293,54 @@
 
 /* VIDEO */
 
-.video{
+.videos{
     background: url('../img/our-work.jpg') center no-repeat;
     background-size: cover;
-    opacity: .8;
-    padding: 100px 0px 400px 0px;
+    /* opacity: .8; */
+    /* padding: 100px 0px 400px 0px; */
+    width: 100%; 
     
-   
 }
-
 .video__content{
+    padding-top: 130px;
     color: #FFFFFF;
     text-align: center;
 }
 .video__title{
     font-size: 48px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .video__description{
     font-size: 20px;
     font-weight: 400;
 }
-.video__img{
+.videos__wrapper{
+    max-width: 960px;
+    margin: 0px auto;
     position: relative;
-    bottom:250px;
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px solid #A1A1A1; 
-    padding-bottom: 80px;
+}
+
+.video__item{
+    padding-top: 56.25%;
+}
+.video__element{
+    position: absolute;
+    top:45%;
+    left: 0;
+    width:100%;
+    height: 80%;
     
+
 }
-.video__photo{
-    border-radius: 30px;
-}
+
+
+
 
 /* contact */
 
 .contacts{
-    margin-top: -150px;
+    margin-top: 350px;
     margin-bottom: 85px;
     
 }

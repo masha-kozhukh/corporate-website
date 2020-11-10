@@ -215,7 +215,9 @@
         padding: 150px 0px 240px 0px;
     }
 
-
+    .accordion{
+        justify-content: center;
+    }
 
     .project__img{
         margin-bottom: 30px;
@@ -228,6 +230,13 @@
        width: 100%;
        margin-bottom: 30px;
    }
+   .project__item{
+       
+   }
+   .contacts {
+     margin-top: 100px;
+    
+    }
    
     
 }
@@ -259,7 +268,8 @@
 
 
     .contacts {
-        margin-top: -170px;
+        margin-top: 50px;
+        padding-top: 30px;
         margin-bottom: 45px;
     }
     .contact__input{

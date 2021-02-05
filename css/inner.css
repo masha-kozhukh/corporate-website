@@ -33,8 +33,8 @@
 
 
 .inner__title {
-    /* width: 850px;
-    text-align: center; */
+    margin:auto;
+    max-width: 800px;
     font-weight: 800;
     font-size: 46px;
     line-height: 1.3333;

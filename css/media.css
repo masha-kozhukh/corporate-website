@@ -120,6 +120,7 @@
         width: 50%;
       
     }
+    
 
 }
 
@@ -130,10 +131,12 @@
     }
 
     .header-style  {
-         background-color: blueviolet; 
-        /* height: 100%;
-        width: 100%; */
-       
+        background: #7abcff; /* Old browsers */
+        background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 );
+            
     }
     .wrapper__header{
         display: block;
@@ -141,16 +144,13 @@
        
     }
     .navigation__active{
-        padding-top: 30px;
+        padding: 40px;
         
         
     }
     .navigation{
      display: none; 
-     /* width: 100%;
-     height: 100%;
-     background-color: rebeccapurple;
-     position: fixed; */
+     
      
     } 
     .list__style{
@@ -237,6 +237,10 @@
      margin-top: 100px;
     
     }
+    .introduction__card{
+        width: 50%;
+        
+    }
    
     
 }
@@ -246,9 +250,16 @@
     .container{
         width: 100%;
     }
-
+    .inner {
+        padding: 50px 0px 50px 0px;
+    }
     .inner__title {
         font-size: 36px;
+    }
+    .introduction__card{
+        width: 100%;
+        align-items: center;
+        padding: 20px;
     }
     .introduction__title{
         font-style: 30px;
@@ -258,6 +269,7 @@
         font-size: 15px;
 
     }
+    
     .mission__title,
     .our__project-title  {
         font-size: 30px;
@@ -265,6 +277,10 @@
     .our__project-title{
         margin-bottom: 25px;
     }
+    .introduction__subtitle{
+        margin-bottom: 30px;
+    }
+    
 
 
     .contacts {
